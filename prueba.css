@@ -1,0 +1,67 @@
+.categoria{
+    border: 4px solid #3d020c;
+    text-align: center;
+    margin-bottom: 3%;
+    background-color: #800b1e;
+    padding-right: 4%;
+}
+h2{
+    font-family: "Parkinsans", sans-serif;
+    margin-top: -1%;
+    margin-bottom: 1%;
+    font-size: 80%;
+  }
+  
+.boton {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #0c85aa;
+    margin-top: 1%;
+    text-align: center;
+    height: 1%;
+    margin-bottom: 3%;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-size: 330%;
+  }
+  
+  .boton:hover, .boton.active {
+    background-color: #055b73;
+  }
+  
+  .contenido {
+    display: none;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 120%;
+  
+ 
+  }
+  
+  .juego {
+    border: 1px solid #3d020c;
+    width: 13%;
+    margin-right: 3.3%;
+    margin-left: 3.3%;
+    margin-bottom: 4%;
+    padding-left: 1%;
+    padding-bottom: 0.5%;
+    background-color: #800b1e;
+    border-radius: 6px;
+    box-shadow: 2px 6px 15px #00090d;
+  }
+  
+  .juego img {
+    width: 130%;
+    margin-top: -6%;
+    border-radius: 6px;
+    box-shadow: 2px 6px 15px #00090d;
+    margin-bottom: 2%;
+  }
+
+  .titulo3{
+    margin: 2%;
+    background-color: #3d020c;
+    border-radius: 8px;
+    padding: 2%;
+    
+  }
+  

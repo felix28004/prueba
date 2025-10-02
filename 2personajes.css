@@ -1,0 +1,69 @@
+body{
+background-color: blue;
+background-image:url("imagenes/fondo2.jpg");
+background-size: 97%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(228, 115, 9);
+    padding: 15px;
+    width: 300px;
+    left: 39%;
+    border-radius: 4px;
+    box-shadow: 5px 9px rgba(169, 84, 4, 0.479);
+    font-family: 'Baumans', cursive;
+    position:relative;
+  }
+
+h2{
+    background-color: rgb(2, 145, 97);
+    border-radius: 7px;
+}
+
+  
+  #personajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  .imagen-contenedor {
+    margin: 1%;
+    width: 15%;
+    background-color: #59d785f3;
+    box-shadow: 6px 7px #4ab17092;
+    padding: 1%;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .imagen-contenedor:hover {
+    margin: 0%;
+    width: 16%;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  img{
+  width: 200px;
+  height: 330px;
+  }
+
+.inicio{
+  background-color: #59d786;
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+  font-size: 26px;
+  font-family: 'Syne Mono', monospace;
+}
+
+.inicio:hover{
+  padding-bottom: 5%;
+  transition: 1s;
+  background-color: #018b4f;
+}

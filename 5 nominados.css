@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows&family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+@keyframes flicker {
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+      text-shadow: 0 0 10px #f5c9c9, 0 0 20px #f5c9c9, 0 0 40px #e00404, 0 0 80px #e00404, 0 0 160px #e00404;
+    }
+    
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+      text-shadow: none;
+    }
+  }
+
+
+body{
+    background-color: #800b1e;
+    color:aliceblue;
+    text-align: center;
+    
+}
+
+
+
+.titulo{
+   text-align: center;
+    font-size:  50px;
+    background-color: #800b1e;
+    margin-left: 35%;
+    margin-right: 38%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px #1b0306;
+    font-family: 'Tilt Neon', sans-serif;
+    color: #f3f0ef;
+    animation: flicker 1s infinite alternate;
+
+}
+
+ /*Menu*/
+.contenedor{
+
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 3%;
+}
+
+.sagas {
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 5%;
+    background-image: url("imagenes/fundosagas.png");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    box-shadow: 2px 6px 15px #00090d;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 0.8%;
+  }
+
+  .solo{
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    margin-right: 0%;
+    margin-left: 0%;
+    background-image: url("imagenes/fondosolo.jpg");
+    background-size: 100%;
+    padding: 5%;
+    box-shadow: 2px 6px 15px #00090d;
+    border: 1px solid black;
+    margin-right: 0.8%;
+    border-radius: 5px;
+  
+  }
+
+  .plata{
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 5%;
+    background-image: url("imagenes/fondojugado.jpg");
+    background-size: 100%;
+    box-shadow: 2px 6px 15px #00090d;
+    border: 1px solid black;
+    margin-right: 0.8%;
+    border-radius: 5px;
+    
+  }
+  
+  .menu {
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 5%;
+    background-image: url("imagenes/fondomenu.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    box-shadow: 2px 6px 15px #000103;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 0.8%;
+    transition: transform 0.3s ease
+  }
+
+  .sagas:hover{
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+  
+  }
+  
+  .solo:hover{
+    transition-duration: 0.5s;
+   transform: scale(0.9);
+  
+      
+    }
+  
+  .plata:hover{
+    transition-duration: 0.5s;
+      transform: scale(0.9);
+  }
+  
+  .menu:hover{
+    transition-duration: 0.5s;
+      transform: scale(0.9);
+    
+  }
+
+  .texto1{
+    text-decoration: none;
+    color: aliceblue;
+    background: #0b6b81db;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Preahvihear", serif;
+    border-radius: 8px;
+
+}
+
+.texto2{
+    text-decoration: none;
+    color: aliceblue;
+    background:#08101bd6;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Preahvihear", serif;
+    border-radius: 8px;
+}
+
+
+.texto3{
+  text-decoration: none;
+  color: aliceblue;
+  background: #4e239ee0;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 8px;
+  font-family: "Preahvihear", serif;
+}
+
+.texto4{
+  text-decoration: none;
+  color: aliceblue;
+  background: #0b1b81db;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Preahvihear", serif;
+  border-radius: 8px;
+
+}
+
+
+.titulo2{
+  margin-top: 1%;
+  text-align: center;
+  height: 1%;
+  margin-bottom: 3%;
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+  font-size: 370%;
+
+}
+
+.grupoJuegos{
+  margin-top: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap:wrap;
+}
+
+.juego{
+  box-shadow: 2px 6px 15px #00090d;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  margin-bottom: 4%;
+  padding: 1%;
+
+}
+
+.juego:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.nominado {
+  margin-left: 2%;
+  border: 2px solid   #000103;
+  width: 50%;
+  padding: -1%;
+  background-color: #34050d;
+  display: grid;
+  
+  
+}
+
+.juego img{
+  height: 98.5% ;
+  width: 50%;
+  border: 2px solid #000103;
+}
+
