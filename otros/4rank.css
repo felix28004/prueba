@@ -55,7 +55,7 @@ body{
     margin-right: 0%;
     margin-left: 0%;
     padding: 5%;
-    background-image: url("imagenes/fundosagas.png");
+    background-image: url("../imagenes/fundosagas.png");
     background-repeat: no-repeat;
     background-size: 120%;
     box-shadow: 2px 6px 15px #00090d;
@@ -70,7 +70,7 @@ body{
     font-size: 30px;
     margin-right: 0%;
     margin-left: 0%;
-    background-image: url("imagenes/fondosolo.jpg");
+    background-image: url("../imagenes/fondosolo.jpg");
     background-size: 100%;
     padding: 5%;
     box-shadow: 2px 6px 15px #00090d;
@@ -87,7 +87,7 @@ body{
     margin-right: 0%;
     margin-left: 0%;
     padding: 5%;
-    background-image: url("imagenes/fondojugado.jpg");
+    background-image: url("../imagenes/fondojugado.jpg");
     background-size: 100%;
     box-shadow: 2px 6px 15px #00090d;
     border: 1px solid black;
@@ -103,7 +103,7 @@ body{
     margin-right: 0%;
     margin-left: 0%;
     padding: 5%;
-    background-image: url("imagenes/fondomenu.jpg");
+    background-image: url("../imagenes/fondomenu.jpg");
     background-repeat: no-repeat;
     background-size: 120%;
     box-shadow: 2px 6px 15px #000103;

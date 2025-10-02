@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
 
+
 @keyframes flicker {
     0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
-      text-shadow: 0 0 10px #c9eef5, 0 0 20px #c9eef5, 0 0 40px #4ee8f4, 0 0 80px #04d1e0, 0 0 160px #04d1e0;
+      text-shadow: 0 0 10px #c9eef5, 0 0 20px #c9eef5, 0 0 40px #04d1e0, 0 0 80px #04d1e0, 0 0 160px #04d1e0;
     }
     
     20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
@@ -42,21 +43,20 @@ body{
     margin-right: 8%;
 }
 
-.menu {
+.sagas {
     text-align: center;
     width: 50%;
     font-size: 30px;
     margin-right: 0%;
     margin-left: 0%;
     padding: 5%;
-    background-image: url("imagenes/fondomenu.jpg");
+    background-image: url("../imagenes/fundosagas.png");
     background-repeat: no-repeat;
     background-size: 120%;
-    box-shadow: 2px 6px 15px #000103;
+    box-shadow: 2px 6px 15px #00090d;
     border-radius: 5px;
     border: 1px solid black;
     margin-right: 0.8%;
-    transition: transform 0.3s ease
   }
 
   .solo{
@@ -65,30 +65,30 @@ body{
     font-size: 30px;
     margin-right: 0%;
     margin-left: 0%;
-    background-image: url("imagenes/fondosolo.jpg");
+    background-image: url("../imagenes/fondosolo.jpg");
     background-size: 100%;
     padding: 5%;
     box-shadow: 2px 6px 15px #00090d;
     border: 1px solid black;
     margin-right: 0.8%;
     border-radius: 5px;
-    transition: transform 0.3s ease
   }
 
 
-  .plata{
+  .menu {
     text-align: center;
     width: 50%;
     font-size: 30px;
     margin-right: 0%;
     margin-left: 0%;
     padding: 5%;
-    background-image: url("imagenes/fondojugado.jpg");
-    background-size: 100%;
-    box-shadow: 2px 6px 15px #00090d;
+    background-image: url("../imagenes/fondomenu.jpg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    box-shadow: 2px 6px 15px #000103;
+    border-radius: 5px;
     border: 1px solid black;
     margin-right: 0.8%;
-    border-radius: 5px;
     transition: transform 0.3s ease
   }
   
@@ -98,7 +98,7 @@ body{
     font-size: 30px;
     margin-right: 0%;
     margin-left: 0%;
-    background-image: url("imagenes/fondoranking2.jpg");
+    background-image: url("../imagenes/fondoranking.jpg");
     background-size: 110%;
     box-shadow: 2px 6px 15px #00090d;
     background-repeat: no-repeat;
@@ -106,10 +106,10 @@ body{
     padding: 5%;
     border: 1px solid black;
     border-radius: 5px;
-    transition: transform 0.3s ease
+  
   }
 
-  .menu:hover{
+  .sagas:hover{
     transition-duration: 0.5s;
     transform: scale(0.9);
   
@@ -122,7 +122,7 @@ body{
       
     }
   
-  .plata:hover{
+  .menu:hover{
     transition-duration: 0.5s;
       transform: scale(0.9);
   }
@@ -137,7 +137,7 @@ body{
 .texto1{
     text-decoration: none;
     color: aliceblue;
-    background: #0b1b81db;
+    background: #0b6b81db;
     padding: 15px;
     padding-left: 50px;
     padding-right: 50px;
@@ -161,12 +161,13 @@ body{
 .texto3{
   text-decoration: none;
   color: aliceblue;
-  background: #4e239ee0;
+  background: #0b1b81db;
   padding: 15px;
   padding-left: 50px;
   padding-right: 50px;
-  border-radius: 8px;
   font-family: "Preahvihear", serif;
+  border-radius: 8px;
+
 }
 
 .texto4{
@@ -180,135 +181,72 @@ body{
   font-family: "Preahvihear", serif;
 }
 
-h1{
-  text-align: center;
-  font-family: "Parkinsans", sans-serif;
-}
 
-/*contenedor 2*/
-
-.contenedor2{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  flex-wrap:wrap;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 3%;
-  
-  text-align: center;
-}
-
-
-
-.marvel {
-  background-color: #11506f;
-  margin-bottom: 8%;
-  margin-right: 5%;
-  border-radius: 8px;
-  box-shadow: 2px 6px 15px #00090d;
-  padding-top: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Parkinsans", sans-serif;
-
-}
-
-.figment {
-  background-color: #11506f;
-  margin-bottom: 8%;
-  margin-right: 5%;
-  border-radius: 8px;
-  box-shadow: 2px 6px 15px #00090d;
-  padding-top: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Parkinsans", sans-serif;
-}
-
-.evil{
-  background-color: #11506f;
-  margin-bottom: 8%;
-  border-radius: 8px;
-  box-shadow: 2px 6px 15px #00090d;
-  padding-top: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Parkinsans", sans-serif;
-}
-
-.kingdom {
-  background-color: #11506f;
-  margin-bottom: 8%;
-  margin-right: 5%;
-  border-radius: 8px;
-  box-shadow: 2px 6px 15px #00090d;
-  padding-top: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Parkinsans", sans-serif;
-}
-
-.silent {
-  background-color: #11506f;
-  margin-bottom: 8%;
-  margin-right: 5%;
-  border-radius: 8px;
-  box-shadow: 2px 6px 15px #00090d;
-  padding-top: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Parkinsans", sans-serif;
-}
-
-.qube {
-  background-color: #11506f;
-  margin-bottom: 8%;
-  margin-right: 5%;
-  border-radius: 8px;
-  box-shadow: 2px 6px 15px #00090d;
-  padding-top: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Parkinsans", sans-serif;
-  padding-bottom: 2% ;
-}
 
 .titulo2{
-  margin-bottom: 5%;
-
-}
-
-
-.titulo2 img {
-  width: 500px; 
-
-}
-
-
-.juego {
-  margin-bottom: 5%;
-  margin-left: -10%;
-  border: 1px solid #000000;
-  background-color: #08101b;
+  margin-top: 1%;
   text-align: center;
-  width: 50%;
-  padding-bottom: 1%;
+  height: 1%;
+  margin-bottom: 3%;
+  font-family: "Parkinsans", sans-serif;
+  font-size: 300%;
+
+}
+
+.titulo2 img{
+  width: 20%;
+ 
+}
+
+
+
+.grupo{
+  border-top: 4px solid #022e44;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+
+
+
+.caja{
+  font-family: "Parkinsans", sans-serif;
+  display: flex;
+  grid-template-columns: repeat(4);
+  flex-wrap:wrap;
+  font-size: 120%;
+}
+
+.juego{
+  border: 1px solid #150632;
+  width: 13%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  padding-left: 1%;
+  padding-bottom: 0.5%;
+  background-color: #391381;
   border-radius: 6px;
-  font-size: 150%;
-  padding-left: 2%;
+
 }
 
 .juego img{
-  width: 450px !important;
+  width: 130%;
+  margin-top: -6%;
   border-radius: 6px;
-  margin-top: -5%;
-  border: 2px solid #08101b;
   box-shadow: 2px 6px 15px #00090d;
+  margin-bottom: 2%;
+} 
+
+.pirata img{
+  margin-top: 1%;
+  margin-bottom: 3%;
+  width: 10%;
 }
 
+.titulo3{
+  margin: 2%;
+  background-color: #150632;
+  border-radius: 8px;
+  padding: 2%;
+}
